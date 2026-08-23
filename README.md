@@ -15,7 +15,7 @@ A deep ready code for bkash payment integration. (tokenized.sandbox.bka.sh/v1.2.
 <img width="1359" height="675" alt="Screenshot_4" src="https://github.com/user-attachments/assets/3873bfb4-48c0-4a66-bcad-e72860fd6cd8" />
 
 ## bKash Sandbox Credentials for Payment Gateway Testing
-ref. (onecodesoft)[https://onecodesoft.com/blogs/bkash-sandbox-credentials-for-payment-gateway-testing]
+ref. (https://onecodesoft.com/blogs/bkash-sandbox-credentials-for-payment-gateway-testing)[onecodesoft]
 
 **Active Customer Wallets (Successful Transactions)**
 - 01770618575
