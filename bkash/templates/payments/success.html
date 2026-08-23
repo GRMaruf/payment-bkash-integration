@@ -1,0 +1,12 @@
+<!-- payments/templates/payments/success.html -->
+<!DOCTYPE html>
+<html>
+<head><title>Success</title></head>
+<body style="text-align: center; margin-top: 100px; font-family: Arial, sans-serif; color: green;">
+    <h1>🎉 Payment Confirmed Successfully!</h1>
+    <p>Thank you for your business purchase.</p>
+    <p><strong>Your Transaction ID (TrxID):</strong> {{ trx_id }}</p>
+    <br>
+    <a href="{% url 'home' %}">Go back home</a>
+</body>
+</html>

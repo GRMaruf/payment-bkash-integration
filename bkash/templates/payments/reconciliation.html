@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>bKash Reconciliation</title></head>
+<body style="font-family: Arial, sans-serif; margin: 60px auto; max-width: 720px;">
+    <h1>Payment reconciliation</h1>
+    <p><strong>Invoice:</strong> {{ payment.merchant_invoice_number }}</p>
+    <p><strong>Payment ID:</strong> {{ payment.payment_id }}</p>
+    <p><strong>Transaction ID:</strong> {{ payment.trx_id|default:"Not completed" }}</p>
+    <p><strong>Local status:</strong> {{ payment.status }}</p>
+    <p><strong>Gateway message:</strong> {{ payment.gateway_message }}</p>
+</body>
+</html>

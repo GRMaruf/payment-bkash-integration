@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bKash Sandbox Test</title>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 100px; font-family: Arial, sans-serif;">
+    <h2>Django bKash Tokenized Checkout Sandbox</h2>
+    <p>Item Total: 500 TK</p>
+    <p>
+        <a href="{% url 'bkash-pay' %}" style="background-color: #E2125D; color: white; padding: 15px 30px; text-decoration: none; font-weight: bold; border-radius: 5px; display: inline-block;">
+            Pay 500 TK with bKash
+        </a>
+    </p>
+    </div>
+
+    <p>
+    <pre>
+Active Customer Wallets (Successful Transactions)
+Key	Wallet Number
+1	01770618575
+2	01929918378
+3	01770618576
+4	01877722345
+5	01619777282
+6	01619777283
+
+Wallets for Failed Transaction
+
+Key	Wallet Number	Failure Reason
+1	01823074817	Insufficient Balance
+2	01823074818	Debit Block
+
+
+PIN and OTP
+
+Key	Wallet Number
+PIN	12121
+OTP	123456
+    </pre>
+    </p>
+</body>
+</html>
