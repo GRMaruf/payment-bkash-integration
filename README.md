@@ -1,8 +1,8 @@
 # Bkash Payment Integration with Django
 A deep ready code for bkash payment integration. (tokenized.sandbox.bka.sh/v1.2.0-beta)
 
-**Project live URL** - http:....
-Project Screenshots and **test values** are given below.
+- **Project live URL** - http:....
+- Project Screenshots and **test values** are given below.
 
 ## Project Screenshots
 
@@ -18,23 +18,18 @@ Project Screenshots and **test values** are given below.
 ref. (onecodesoft)[https://onecodesoft.com/blogs/bkash-sandbox-credentials-for-payment-gateway-testing]
 
 **Active Customer Wallets (Successful Transactions)**
-Key	Wallet Number
-1	01770618575
-2	01929918378
-3	01770618576
-4	01877722345
-5	01619777282
-6	01619777283
+- 01770618575
+- 01929918378
+- 01770618576
+- 01877722345
+- 01619777282
+- 01619777283
 
 **Wallets for Failed Transaction**
-
-Key	Wallet Number	Failure Reason
-1	01823074817	Insufficient Balance
-2	01823074818	Debit Block
+- 01823074817	(Insufficient Balance)
+- 01823074818	(Debit Block)
 
 **PIN and OTP**
-
-Key	Wallet Number
-PIN	12121
-OTP	123456
+- PIN	12121
+- OTP	123456
 
